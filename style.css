@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 208, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
